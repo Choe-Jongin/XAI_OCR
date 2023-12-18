@@ -183,19 +183,16 @@ def main(path = ""):
         org_image = read_image(file)
         reader = Reader(lang_list=['en'], gpu=True)
         results = reader.readtext(org_image)
-        box_list = []
-        for line in results:
-            (x1,y1) = int(line[0][0][0]), int(line[0][0][1])
-            (x2,y2) = int(line[0][2][0]), int(line[0][2][1])
-            box_list.append(box(x1,y1,x2,y2))
         
-
         # Merge adjacent boxes
-        original_box_list = box_list.copy()
         margin_finish = False
-        x_margin = 5
-
+        x_margin = 0
         while not margin_finish :
+            box_list = []
+            for line in results:
+                (x1,y1) = int(line[0][0][0]), int(line[0][0][1])
+                (x2,y2) = int(line[0][2][0]), int(line[0][2][1])
+                box_list.append(box(x1,y1,x2,y2))
             table_list = get_table_blocks(org_image)
             merge_boxs(box_list, x_margin, 0)
 
@@ -243,19 +240,18 @@ def main(path = ""):
             # type check
             date_parser = Parser()
             for b in box_list:
+                # address
+                addresses = pyap.parse(b.text, country='US')
+                if addresses != []:
+                    b.type="address"
+                    b.real_value = addresses[0]
+                    print(b.text)
                 
                 # date
                 dates = list(date_parser.parse(b.text))
                 if dates != []:
                     b.type="date"
                     b.real_value = dates[0]
-                    print(b.text)
-
-                # address
-                addresses = pyap.parse(b.text, country='US')
-                if addresses != []:
-                    b.type="address"
-                    b.real_value = addresses[0]
                     print(b.text)
 
             for table in table_list :
@@ -275,47 +271,30 @@ def main(path = ""):
                 (x1,y1) = (b.l, b.t)
                 (x2,y2) = (b.r, b.b)
                 show_image = cv2.rectangle(show_image, (x1,y1), (x2,y2), (0,255,0), 1)
-                show_image = cv2.putText(show_image, str(b.block), (x1,y1+10), cv2.FONT_HERSHEY_PLAIN, 2, (0,0,0), 2)
-                show_image = cv2.putText(show_image, str(b.type), (x1+30,y1+10), cv2.FONT_HERSHEY_PLAIN, 2, (0,0,0), 2)
+                # show_image = cv2.putText(show_image, str(b.block), (x1,y1+10), cv2.FONT_HERSHEY_PLAIN, 2, (0,0,0), 2)
+                # show_image = cv2.putText(show_image, str(b.type), (x1+30,y1+10), cv2.FONT_HERSHEY_PLAIN, 2, (0,0,0), 2)
                 if b.type == "address" :
                     show_image = cv2.rectangle(show_image, (x1,y1), (x2,y2), (0,0,255), 2)
 
             # block check
-            for b in table_list:   
-                (x1,y1) = (b.l, b.t)
-                (x2,y2) = (b.r, b.b)
-                show_image = cv2.rectangle(show_image, (x1,y1), (x2,y2), (255,0,0), 1)
-                if b.type == "address" :
-                    show_image = cv2.rectangle(show_image, (x1,y1), (x2,y2), (0,0,255), 2)
+            # for b in table_list:   
+            #     (x1,y1) = (b.l, b.t)
+            #     (x2,y2) = (b.r, b.b)
+            #     show_image = cv2.rectangle(show_image, (x1,y1), (x2,y2), (255,0,0), 1)
+            #     if b.type == "address" :
+            #         show_image = cv2.rectangle(show_image, (x1,y1), (x2,y2), (0,0,255), 2)
 
-            
+            app = QApplication([])
+            main_window = QMainWindow()
+            main_window.setWindowTitle('XAI OCR')
+
+            json_data = {}
+            json_data['date'] = []
+            json_data['address'] = []
             ######      MACTHING       #######  
             label_text = ""     
             date_parser = Parser()
             for b in box_list :
-                # date matching
-                if ("date" in b.text.lower() or 
-                    "dat" in b.text.lower() or 
-                    "eta" in b.text.lower() ) :
-                    dates = list(date_parser.parse(b.text))
-                    if dates != []:
-                        print( b.text, ":", dates[0].date)
-                        label_text +=  b.text.replace(":","") +" : " + str(dates[0].date) + "\n"
-                    else :
-                        closer_box = None
-                        for date_box in box_list :
-                            date_parser = Parser()
-                            dates = list(date_parser.parse(date_box.text))
-                            if dates != [] and b.distance(date_box) < 300:
-                                if closer_box == None:
-                                    closer_box = date_box
-                                elif b.distance(closer_box) > b.distance(date_box):
-                                    closer_box = date_box
-                        if closer_box != None:
-                            dates = list(date_parser.parse(closer_box.text))
-                            print( b.text, ":", dates[0].date)
-                            label_text +=  b.text.replace(":","") + " : " + str(dates[0].date) + "\n"
-
                 # address matching
                 if ("deliver" in b.text.lower() or 
                     "pickup" in b.text.lower() or 
@@ -324,6 +303,7 @@ def main(path = ""):
 
                     if b.type == "address" and b.text.find(":") != -1:
                         print(b.text[:b.text.find(":")], b.real_value)
+                        json_data['address'].append({"label" : b.text, "value" : str(b.real_value)})
                     else :
                         closer_box = None
                         for addr_box in box_list :
@@ -341,13 +321,39 @@ def main(path = ""):
 
                         if closer_box != None:
                             print( b.text, ":", closer_box.real_value)
+                            json_data['address'].append({"label" : b.text, "value" : str(closer_box.real_value)})
                             label_text +=  b.text.replace(":","") +" : " + str(closer_box.real_value) + "\n"
+                            
+                # date matching
+                if ("date" in b.text.lower() or 
+                    "dat" in b.text.lower() or 
+                    "eta" in b.text.lower() ) :
+                    dates = list(date_parser.parse(b.text))
+                    if dates != []:
+                        print( b.text, ":", dates[0].date)
+                        json_data['date'].append({"label" : b.text, "value" : str(dates[0].date)})
+                        label_text +=  b.text.replace(":","") +" : " + str(dates[0].date) + "\n"
+
+                    else :
+                        closer_box = None
+                        for date_box in box_list :
+                            date_parser = Parser()
+                            dates = list(date_parser.parse(date_box.text))
+                            if dates != [] and b.distance(date_box) < 300:
+                                if closer_box == None:
+                                    closer_box = date_box
+                                elif b.distance(closer_box) > b.distance(date_box):
+                                    closer_box = date_box
+                        if closer_box != None:
+                            dates = list(date_parser.parse(closer_box.text))
+                            print( b.text, ":", dates[0].date)
+                            json_data['date'].append({"label" : b.text, "value" : str(dates[0].date)})
+                            label_text +=  b.text.replace(":","") + " : " + str(dates[0].date) + "\n"
+
             
             reszie_rate = 800/show_image.shape[0]
             show_image = cv2.resize(show_image, dsize=(int(show_image.shape[1]*reszie_rate), int(show_image.shape[0]*reszie_rate)))
-            app = QApplication([])
-            main_window = QMainWindow()
-            main_window.setWindowTitle('XAI OCR')
+
             qiamge = QImage(show_image,show_image.shape[1], show_image.shape[0], show_image.strides[0], QImage.Format.Format_BGR888)
             frame = QLabel()
             frame.setPixmap(QPixmap.fromImage(qiamge))
@@ -366,25 +372,22 @@ def main(path = ""):
         
             main_window.show()
 
-            box_list = original_box_list.copy()
             x_margin += 5
+            app.exec_()
 
-            sys.exit(app.exec_())
+            json_data['boundary'] = []
+            for b in box_list:
+                json_data['boundary'].append({
+                    "text" : b.text,
+                    "type" : b.type,
+                    "block_num" : b.block,
+                    "left_top" : (b.l, b.t),
+                    "right_bot" : (b.r, b.b),
+                })
 
-        json_data = {}
-        json_data['boundary'] = []
-        for b in box_list:
-            json_data['boundary'].append({
-                "text" : b.text,
-                "type" : b.type,
-                "block_num" : b.block,
-                "left_top" : (b.l, b.t),
-                "right_bot" : (b.r, b.b),
-            })
-
-        # save data
-        with open("label.data", 'w') as outfile:
-            json.dump(json_data, outfile, indent=4)
+            # save data
+            with open("label.json", 'w') as outfile:
+                json.dump(json_data, outfile, indent=4)
 
 if __name__ == '__main__':
    

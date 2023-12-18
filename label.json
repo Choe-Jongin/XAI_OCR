@@ -1,0 +1,1618 @@
+{
+    "date": [
+        {
+            "label": "POL Sailing Date",
+            "value": "2023-05-01"
+        },
+        {
+            "label": "POD Arrival Date:",
+            "value": "2023-05-01"
+        },
+        {
+            "label": "Booked Date",
+            "value": "2023-05-01"
+        }
+    ],
+    "address": [
+        {
+            "label": "Pickup Date",
+            "value": "181 W.HUNTINGTON DRIVE, SUITE 202 MONROVIA, CA 91016"
+        },
+        {
+            "label": "Address",
+            "value": "181 W.HUNTINGTON DRIVE, SUITE 202 MONROVIA, CA 91016"
+        },
+        {
+            "label": "SHIPPER/NVOCC",
+            "value": "181 W.HUNTINGTON DRIVE, SUITE 202 MONROVIA, CA 91016"
+        }
+    ],
+    "boundary": [
+        {
+            "text": "BOOKING CONFIRMATION",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                663,
+                1
+            ],
+            "right_bot": [
+                1187,
+                43
+            ]
+        },
+        {
+            "text": "PN bE WRAP AE hr a]  Yang Ming Marine Transport Corporation",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                104,
+                16
+            ],
+            "right_bot": [
+                550,
+                113
+            ]
+        },
+        {
+            "text": "",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                664,
+                48
+            ],
+            "right_bot": [
+                712,
+                72
+            ]
+        },
+        {
+            "text": "1541 757 3189",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                756,
+                46
+            ],
+            "right_bot": [
+                910,
+                72
+            ]
+        },
+        {
+            "text": "FROM",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                646,
+                84
+            ],
+            "right_bot": [
+                716,
+                110
+            ]
+        },
+        {
+            "text": "sharonduan@us.yangming.com",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                754,
+                84
+            ],
+            "right_bot": [
+                1098,
+                112
+            ]
+        },
+        {
+            "text": "Booking Number: YLX22414412",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                23,
+                152
+            ],
+            "right_bot": [
+                436,
+                191
+            ]
+        },
+        {
+            "text": "ITN Number",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                592,
+                154
+            ],
+            "right_bot": [
+                760,
+                184
+            ]
+        },
+        {
+            "text": "Shipper Ref:",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1093,
+                151
+            ],
+            "right_bot": [
+                1261,
+                194
+            ]
+        },
+        {
+            "text": "Vessel",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                154,
+                202
+            ],
+            "right_bot": [
+                230,
+                226
+            ]
+        },
+        {
+            "text": "NYK VENUS.",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                256,
+                202
+            ],
+            "right_bot": [
+                390,
+                226
+            ]
+        },
+        {
+            "text": "SCAC",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                742,
+                200
+            ],
+            "right_bot": [
+                810,
+                226
+            ]
+        },
+        {
+            "text": "YMPR",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                826,
+                198
+            ],
+            "right_bot": [
+                894,
+                224
+            ]
+        },
+        {
+            "text": "SVC NO.",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1098,
+                202
+            ],
+            "right_bot": [
+                1192,
+                228
+            ]
+        },
+        {
+            "text": "X83422",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1212,
+                202
+            ],
+            "right_bot": [
+                1288,
+                226
+            ]
+        },
+        {
+            "text": "YML Voyage",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                93,
+                242
+            ],
+            "right_bot": [
+                233,
+                278
+            ]
+        },
+        {
+            "text": "FP1242C",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                262,
+                242
+            ],
+            "right_bot": [
+                350,
+                266
+            ]
+        },
+        {
+            "text": "COM Voyage",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                670,
+                247
+            ],
+            "right_bot": [
+                814,
+                279
+            ]
+        },
+        {
+            "text": "073W",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                836,
+                248
+            ],
+            "right_bot": [
+                896,
+                272
+            ]
+        },
+        {
+            "text": "Trade Service",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                975,
+                243
+            ],
+            "right_bot": [
+                1128,
+                271
+            ]
+        },
+        {
+            "text": "FAR EAST PACIFIC PENDULUM 1",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1146,
+                246
+            ],
+            "right_bot": [
+                1492,
+                272
+            ]
+        },
+        {
+            "text": "for US Customs purpose",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                660,
+                282
+            ],
+            "right_bot": [
+                930,
+                310
+            ]
+        },
+        {
+            "text": "POL Cut-off:",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1010,
+                282
+            ],
+            "right_bot": [
+                1142,
+                308
+            ]
+        },
+        {
+            "text": "12/29/2022",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1148,
+                286
+            ],
+            "right_bot": [
+                1254,
+                310
+            ]
+        },
+        {
+            "text": "ITN/SI Cut-off:",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1352,
+                286
+            ],
+            "right_bot": [
+                1508,
+                310
+            ]
+        },
+        {
+            "text": "12/28/2022",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1516,
+                288
+            ],
+            "right_bot": [
+                1620,
+                312
+            ]
+        },
+        {
+            "text": "Place of Receipt",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                54,
+                316
+            ],
+            "right_bot": [
+                232,
+                342
+            ]
+        },
+        {
+            "text": "LOS ANGELES, CA",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                258,
+                315
+            ],
+            "right_bot": [
+                452,
+                341
+            ]
+        },
+        {
+            "text": "POR Cut-off: 12/29/2022 16:00",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1006,
+                318
+            ],
+            "right_bot": [
+                1310,
+                346
+            ]
+        },
+        {
+            "text": "Port of Loading",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                60,
+                355
+            ],
+            "right_bot": [
+                231,
+                388
+            ]
+        },
+        {
+            "text": "LOS ANGELES, CA",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                256,
+                358
+            ],
+            "right_bot": [
+                452,
+                384
+            ]
+        },
+        {
+            "text": "POL Sailing Date 01/05/2023",
+            "type": "date",
+            "block_num": 0,
+            "left_top": [
+                958,
+                356
+            ],
+            "right_bot": [
+                1254,
+                388
+            ]
+        },
+        {
+            "text": "*ERD Date:: 12/27/2022",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1384,
+                364
+            ],
+            "right_bot": [
+                1620,
+                392
+            ]
+        },
+        {
+            "text": "Port of Discharge",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                35,
+                394
+            ],
+            "right_bot": [
+                229,
+                430
+            ]
+        },
+        {
+            "text": "KOBE",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                256,
+                402
+            ],
+            "right_bot": [
+                322,
+                426
+            ]
+        },
+        {
+            "text": "POD Arrival Date:",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                956,
+                406
+            ],
+            "right_bot": [
+                1140,
+                432
+            ]
+        },
+        {
+            "text": "01/25/2023",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1146,
+                408
+            ],
+            "right_bot": [
+                1254,
+                432
+            ]
+        },
+        {
+            "text": "Pickup Date",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1364,
+                410
+            ],
+            "right_bot": [
+                1498,
+                436
+            ]
+        },
+        {
+            "text": "Port of Delivery",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                60,
+                437
+            ],
+            "right_bot": [
+                230,
+                470
+            ]
+        },
+        {
+            "text": "KOBE,JP.",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                256,
+                442
+            ],
+            "right_bot": [
+                348,
+                468
+            ]
+        },
+        {
+            "text": "Booked Date",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                998,
+                452
+            ],
+            "right_bot": [
+                1140,
+                476
+            ]
+        },
+        {
+            "text": "12/19/2022 12:31:15",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1148,
+                452
+            ],
+            "right_bot": [
+                1338,
+                476
+            ]
+        },
+        {
+            "text": "Dest ETA",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1394,
+                456
+            ],
+            "right_bot": [
+                1496,
+                480
+            ]
+        },
+        {
+            "text": "01/25/2023",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1516,
+                456
+            ],
+            "right_bot": [
+                1622,
+                480
+            ]
+        },
+        {
+            "text": "ORIGIN OFFICE",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                256,
+                502
+            ],
+            "right_bot": [
+                428,
+                528
+            ]
+        },
+        {
+            "text": "BOOKED BY",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1076,
+                502
+            ],
+            "right_bot": [
+                1214,
+                528
+            ]
+        },
+        {
+            "text": "Office",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                168,
+                546
+            ],
+            "right_bot": [
+                238,
+                572
+            ]
+        },
+        {
+            "text": "YANG MING (AMERICA) CORPORATION",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                258,
+                546
+            ],
+            "right_bot": [
+                678,
+                572
+            ]
+        },
+        {
+            "text": "LAX",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                690,
+                546
+            ],
+            "right_bot": [
+                742,
+                570
+            ]
+        },
+        {
+            "text": "Name",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                986,
+                546
+            ],
+            "right_bot": [
+                1052,
+                570
+            ]
+        },
+        {
+            "text": "SHARON DUAN",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1074,
+                546
+            ],
+            "right_bot": [
+                1240,
+                570
+            ]
+        },
+        {
+            "text": "Address",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                144,
+                588
+            ],
+            "right_bot": [
+                238,
+                614
+            ]
+        },
+        {
+            "text": "181 W.HUNTINGTON DRIVE, SUITE 202 MONROVIA, CA 91016",
+            "type": "address",
+            "block_num": 0,
+            "left_top": [
+                258,
+                588
+            ],
+            "right_bot": [
+                662,
+                638
+            ]
+        },
+        {
+            "text": "Address",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                958,
+                586
+            ],
+            "right_bot": [
+                1052,
+                610
+            ]
+        },
+        {
+            "text": "181 W.HUNTINGTON DRIVE, SUITE 202 MONROVIA, CA 91016",
+            "type": "address",
+            "block_num": 0,
+            "left_top": [
+                1076,
+                586
+            ],
+            "right_bot": [
+                1480,
+                636
+            ]
+        },
+        {
+            "text": "Phone",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                164,
+                706
+            ],
+            "right_bot": [
+                238,
+                732
+            ]
+        },
+        {
+            "text": "626 782-9797",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                256,
+                705
+            ],
+            "right_bot": [
+                385,
+                730
+            ]
+        },
+        {
+            "text": "Email",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                986,
+                704
+            ],
+            "right_bot": [
+                1052,
+                730
+            ]
+        },
+        {
+            "text": "sharonduan@us.yangming.com",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1073,
+                703
+            ],
+            "right_bot": [
+                1362,
+                732
+            ]
+        },
+        {
+            "text": "Fax",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                194,
+                742
+            ],
+            "right_bot": [
+                238,
+                768
+            ]
+        },
+        {
+            "text": "626 782-9815",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                256,
+                744
+            ],
+            "right_bot": [
+                386,
+                768
+            ]
+        },
+        {
+            "text": "SIE Fax No",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                488,
+                742
+            ],
+            "right_bot": [
+                618,
+                768
+            ]
+        },
+        {
+            "text": "1800 753-5176",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                638,
+                744
+            ],
+            "right_bot": [
+                778,
+                768
+            ]
+        },
+        {
+            "text": "Phone",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                978,
+                746
+            ],
+            "right_bot": [
+                1052,
+                770
+            ]
+        },
+        {
+            "text": "626-782-9785",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1074,
+                746
+            ],
+            "right_bot": [
+                1206,
+                770
+            ]
+        },
+        {
+            "text": "SI E-Mail",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                516,
+                782
+            ],
+            "right_bot": [
+                618,
+                806
+            ]
+        },
+        {
+            "text": "laxde@us.yangming.co",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                636,
+                782
+            ],
+            "right_bot": [
+                852,
+                810
+            ]
+        },
+        {
+            "text": "Fax",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1008,
+                790
+            ],
+            "right_bot": [
+                1052,
+                814
+            ]
+        },
+        {
+            "text": "626-782-9816",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1074,
+                790
+            ],
+            "right_bot": [
+                1208,
+                814
+            ]
+        },
+        {
+            "text": "SHIPPER/NVOCC",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                254,
+                850
+            ],
+            "right_bot": [
+                444,
+                874
+            ]
+        },
+        {
+            "text": "FORWARDER",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1076,
+                850
+            ],
+            "right_bot": [
+                1226,
+                874
+            ]
+        },
+        {
+            "text": "Company",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                129,
+                891
+            ],
+            "right_bot": [
+                238,
+                922
+            ]
+        },
+        {
+            "text": "GREAT CHEER (AMERICA) INC.",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                256,
+                894
+            ],
+            "right_bot": [
+                584,
+                918
+            ]
+        },
+        {
+            "text": "Company",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                945,
+                895
+            ],
+            "right_bot": [
+                1052,
+                926
+            ]
+        },
+        {
+            "text": "Address",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                144,
+                938
+            ],
+            "right_bot": [
+                236,
+                962
+            ]
+        },
+        {
+            "text": "PO BOX 2403 LAKE OSWEGO, OR 97035",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                254,
+                938
+            ],
+            "right_bot": [
+                660,
+                962
+            ]
+        },
+        {
+            "text": "Address",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                958,
+                942
+            ],
+            "right_bot": [
+                1052,
+                966
+            ]
+        },
+        {
+            "text": "CTC Name",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                120,
+                978
+            ],
+            "right_bot": [
+                238,
+                1004
+            ]
+        },
+        {
+            "text": "AMANDA X.2",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                258,
+                978
+            ],
+            "right_bot": [
+                398,
+                1002
+            ]
+        },
+        {
+            "text": "CTC Name",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                934,
+                982
+            ],
+            "right_bot": [
+                1052,
+                1008
+            ]
+        },
+        {
+            "text": "Phone",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                164,
+                1020
+            ],
+            "right_bot": [
+                238,
+                1046
+            ]
+        },
+        {
+            "text": "541-754-9162",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                255,
+                1020
+            ],
+            "right_bot": [
+                387,
+                1044
+            ]
+        },
+        {
+            "text": "Phone",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                978,
+                1024
+            ],
+            "right_bot": [
+                1052,
+                1050
+            ]
+        },
+        {
+            "text": "Fax",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                194,
+                1062
+            ],
+            "right_bot": [
+                238,
+                1086
+            ]
+        },
+        {
+            "text": "Fax",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1008,
+                1066
+            ],
+            "right_bot": [
+                1054,
+                1090
+            ]
+        },
+        {
+            "text": "Cargo Details",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                26,
+                1106
+            ],
+            "right_bot": [
+                176,
+                1134
+            ]
+        },
+        {
+            "text": "**Booking subject to vessel space and equipment availability. **Door Booking subject to truck power.  **Vessel schedule on the booking confirmation is an estimate. **Rail cutoffs and early receiving date are subject to change.  ** All dates/times are best reasonable estimates and may change.",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                33,
+                1140
+            ],
+            "right_bot": [
+                606,
+                1278
+            ]
+        },
+        {
+            "text": "Equipment",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                99,
+                1289
+            ],
+            "right_bot": [
+                222,
+                1319
+            ]
+        },
+        {
+            "text": "Pick Up Location",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                506,
+                1290
+            ],
+            "right_bot": [
+                692,
+                1318
+            ]
+        },
+        {
+            "text": "Return Location",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1064,
+                1292
+            ],
+            "right_bot": [
+                1240,
+                1316
+            ]
+        },
+        {
+            "text": "40'HIGH CUBE CONTAINER",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                93,
+                1335
+            ],
+            "right_bot": [
+                380,
+                1360
+            ]
+        },
+        {
+            "text": "Yusen Terminal - Port of Los Angeles, Berths 212 - 223 701 New Dock St., Terminal Island, CA 90731",
+            "type": "address",
+            "block_num": 0,
+            "left_top": [
+                506,
+                1336
+            ],
+            "right_bot": [
+                968,
+                1388
+            ]
+        },
+        {
+            "text": "Yusen Terminal - Port of Los Angeles, Berths 212 New Dock St., Terminal Island, CA 90731",
+            "type": "address",
+            "block_num": 0,
+            "left_top": [
+                1064,
+                1335
+            ],
+            "right_bot": [
+                1520,
+                1388
+            ]
+        },
+        {
+            "text": "223 701",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1530,
+                1334
+            ],
+            "right_bot": [
+                1606,
+                1360
+            ]
+        },
+        {
+            "text": "Commodity Description",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                93,
+                1396
+            ],
+            "right_bot": [
+                350,
+                1426
+            ]
+        },
+        {
+            "text": "Gross Wt./Unit",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1184,
+                1397
+            ],
+            "right_bot": [
+                1345,
+                1426
+            ]
+        },
+        {
+            "text": "Gross Cube./Unit",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1404,
+                1397
+            ],
+            "right_bot": [
+                1594,
+                1426
+            ]
+        },
+        {
+            "text": "Aluminum waste and scrap",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                93,
+                1435
+            ],
+            "right_bot": [
+                342,
+                1464
+            ]
+        },
+        {
+            "text": "42000.000",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1188,
+                1436
+            ],
+            "right_bot": [
+                1290,
+                1460
+            ]
+        },
+        {
+            "text": "0.000",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1414,
+                1436
+            ],
+            "right_bot": [
+                1470,
+                1460
+            ]
+        },
+        {
+            "text": "Booking Remarks:",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                52,
+                1476
+            ],
+            "right_bot": [
+                254,
+                1504
+            ]
+        },
+        {
+            "text": "**AECC1000007- For USA origin cargo: detention tariff free time is 4 working days for dry van, 3 working days for reefer, open top or flat rack. Detention free time includes date of empty pick up & date of load return.  Any equipment return unused will be subject to $200/per dry van or $300/per reefer, open top, flat rack equipment unused fee plus any detention fee if applicable.",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                256,
+                1473
+            ],
+            "right_bot": [
+                1452,
+                1583
+            ]
+        },
+        {
+            "text": "Special Remarks:",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                48,
+                1588
+            ],
+            "right_bot": [
+                240,
+                1614
+            ]
+        },
+        {
+            "text": "Voyage has been Changed from PS6247W to FP1242C and port USLAX for the Reason PER Amanda, ROLLOVER.",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                260,
+                1590
+            ],
+            "right_bot": [
+                1314,
+                1623
+            ]
+        },
+        {
+            "text": "Domestic Export TSP Mode:",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                30,
+                1652
+            ],
+            "right_bot": [
+                334,
+                1680
+            ]
+        },
+        {
+            "text": "Y-CY",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                358,
+                1656
+            ],
+            "right_bot": [
+                418,
+                1680
+            ]
+        },
+        {
+            "text": "Destination Export TSP Mode:",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                852,
+                1652
+            ],
+            "right_bot": [
+                1176,
+                1683
+            ]
+        },
+        {
+            "text": "Y-CY",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1200,
+                1656
+            ],
+            "right_bot": [
+                1258,
+                1680
+            ]
+        },
+        {
+            "text": "No.",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                70,
+                1750
+            ],
+            "right_bot": [
+                110,
+                1774
+            ]
+        },
+        {
+            "text": "Customer",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                162,
+                1750
+            ],
+            "right_bot": [
+                272,
+                1774
+            ]
+        },
+        {
+            "text": "Address",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                749,
+                1750
+            ],
+            "right_bot": [
+                841,
+                1774
+            ]
+        },
+        {
+            "text": "Please Review the above information to be sure it matches what you show for your booking. (America) Corp. as soon as possible, before delivery of the loaded container(s).",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                28,
+                1786
+            ],
+            "right_bot": [
+                938,
+                1842
+            ]
+        },
+        {
+            "text": "If you find any errors, Please notify",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                948,
+                1788
+            ],
+            "right_bot": [
+                1300,
+                1818
+            ]
+        },
+        {
+            "text": "If there is no applicable rate filed to the contract by the time Shipper renders containers to Carrier, according to FMC regulations, Carrier shall apply its tariff rate plus all applicable surcharges to the shipment involved.",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                23,
+                1851
+            ],
+            "right_bot": [
+                1429,
+                1913
+            ]
+        },
+        {
+            "text": "Shipper's Acceptance Signature For Reefer/Special Cargo",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                36,
+                1945
+            ],
+            "right_bot": [
+                618,
+                1975
+            ]
+        },
+        {
+            "text": "12/21/202208: ",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                24,
+                2050
+            ],
+            "right_bot": [
+                212,
+                2074
+            ]
+        },
+        {
+            "text": "USA010",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                800,
+                2050
+            ],
+            "right_bot": [
+                882,
+                2074
+            ]
+        },
+        {
+            "text": "Page No",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1338,
+                2050
+            ],
+            "right_bot": [
+                1424,
+                2079
+            ]
+        },
+        {
+            "text": "1of3",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1456,
+                2052
+            ],
+            "right_bot": [
+                1514,
+                2076
+            ]
+        },
+        {
+            "text": "",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                28,
+                1286
+            ],
+            "right_bot": [
+                65,
+                1321
+            ]
+        },
+        {
+            "text": "Yang",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1301,
+                1785
+            ],
+            "right_bot": [
+                1355,
+                1819
+            ]
+        },
+        {
+            "text": "Ming",
+            "type": "",
+            "block_num": 0,
+            "left_top": [
+                1361,
+                1785
+            ],
+            "right_bot": [
+                1409,
+                1819
+            ]
+        }
+    ]
+}
