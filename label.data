@@ -1,0 +1,784 @@
+{
+    "boundary": [
+        {
+            "text": "-OSC SHIPPING",
+            "block_num": 0,
+            "left_top": [
+                123,
+                105
+            ],
+            "right_bot": [
+                312,
+                168
+            ]
+        },
+        {
+            "text": "Container Trucking Job Order",
+            "block_num": 0,
+            "left_top": [
+                565,
+                221
+            ],
+            "right_bot": [
+                1163,
+                287
+            ]
+        },
+        {
+            "text": "Job #:",
+            "block_num": 0,
+            "left_top": [
+                116,
+                334
+            ],
+            "right_bot": [
+                190,
+                362
+            ]
+        },
+        {
+            "text": "1732057012",
+            "block_num": 0,
+            "left_top": [
+                314,
+                334
+            ],
+            "right_bot": [
+                474,
+                366
+            ]
+        },
+        {
+            "text": "Status:",
+            "block_num": 0,
+            "left_top": [
+                864,
+                334
+            ],
+            "right_bot": [
+                946,
+                360
+            ]
+        },
+        {
+            "text": "",
+            "block_num": 0,
+            "left_top": [
+                1064,
+                336
+            ],
+            "right_bot": [
+                1202,
+                366
+            ]
+        },
+        {
+            "text": "Order By:",
+            "block_num": 0,
+            "left_top": [
+                116,
+                370
+            ],
+            "right_bot": [
+                228,
+                400
+            ]
+        },
+        {
+            "text": "COSCO SHIPPING Lines (North America)",
+            "block_num": 0,
+            "left_top": [
+                312,
+                372
+            ],
+            "right_bot": [
+                840,
+                404
+            ]
+        },
+        {
+            "text": "Supplier: Issue Office:",
+            "block_num": 0,
+            "left_top": [
+                860,
+                371
+            ],
+            "right_bot": [
+                1008,
+                442
+            ]
+        },
+        {
+            "text": "NGL TRANSPORTATION, LLC",
+            "block_num": 0,
+            "left_top": [
+                1064,
+                376
+            ],
+            "right_bot": [
+                1456,
+                406
+            ]
+        },
+        {
+            "text": "Inc. Houston",
+            "block_num": 0,
+            "left_top": [
+                312,
+                410
+            ],
+            "right_bot": [
+                476,
+                440
+            ]
+        },
+        {
+            "text": "Houston",
+            "block_num": 0,
+            "left_top": [
+                1064,
+                418
+            ],
+            "right_bot": [
+                1172,
+                446
+            ]
+        },
+        {
+            "text": "Date Issued:",
+            "block_num": 0,
+            "left_top": [
+                118,
+                446
+            ],
+            "right_bot": [
+                261,
+                472
+            ]
+        },
+        {
+            "text": "09 Nov 2022, 09:33",
+            "block_num": 0,
+            "left_top": [
+                312,
+                446
+            ],
+            "right_bot": [
+                562,
+                478
+            ]
+        },
+        {
+            "text": "OPS:",
+            "block_num": 0,
+            "left_top": [
+                118,
+                484
+            ],
+            "right_bot": [
+                182,
+                510
+            ]
+        },
+        {
+            "text": "Ari Humphries",
+            "block_num": 0,
+            "left_top": [
+                314,
+                483
+            ],
+            "right_bot": [
+                497,
+                519
+            ]
+        },
+        {
+            "text": "Pickup/Delivery Point Information ",
+            "block_num": 0,
+            "left_top": [
+                623,
+                580
+            ],
+            "right_bot": [
+                1079,
+                619
+            ]
+        },
+        {
+            "text": "Pickup/Delivery Laden pickup Empty return",
+            "block_num": 0,
+            "left_top": [
+                138,
+                622
+            ],
+            "right_bot": [
+                316,
+                735
+            ]
+        },
+        {
+            "text": "Address",
+            "block_num": 0,
+            "left_top": [
+                366,
+                622
+            ],
+            "right_bot": [
+                460,
+                648
+            ]
+        },
+        {
+            "text": "LGB01(Pacific Container Terminal)/Berth 246 1521 Pier J Avenue Long Beach , CA 90802  LGB01(Pacific Container Terminal)/Berth 246 1521 Pier J Avenue Long Beach , CA 90802 ",
+            "block_num": 0,
+            "left_top": [
+                362,
+                654
+            ],
+            "right_bot": [
+                1480,
+                731
+            ]
+        },
+        {
+            "text": "Appointment Information  00CU494545-4, 40GP, 6346255200 ",
+            "block_num": 0,
+            "left_top": [
+                339,
+                761
+            ],
+            "right_bot": [
+                1021,
+                832
+            ]
+        },
+        {
+            "text": "Cntr. #",
+            "block_num": 0,
+            "left_top": [
+                114,
+                804
+            ],
+            "right_bot": [
+                194,
+                830
+            ]
+        },
+        {
+            "text": "Date/Time",
+            "block_num": 0,
+            "left_top": [
+                114,
+                838
+            ],
+            "right_bot": [
+                234,
+                864
+            ]
+        },
+        {
+            "text": "Contact",
+            "block_num": 0,
+            "left_top": [
+                114,
+                874
+            ],
+            "right_bot": [
+                206,
+                900
+            ]
+        },
+        {
+            "text": "Address",
+            "block_num": 0,
+            "left_top": [
+                114,
+                908
+            ],
+            "right_bot": [
+                210,
+                934
+            ]
+        },
+        {
+            "text": "Glendale",
+            "block_num": 0,
+            "left_top": [
+                340,
+                908
+            ],
+            "right_bot": [
+                446,
+                936
+            ]
+        },
+        {
+            "text": "Remark",
+            "block_num": 0,
+            "left_top": [
+                116,
+                944
+            ],
+            "right_bot": [
+                208,
+                970
+            ]
+        },
+        {
+            "text": "Equip. Information",
+            "block_num": 19,
+            "left_top": [
+                725,
+                1056
+            ],
+            "right_bot": [
+                979,
+                1095
+            ]
+        },
+        {
+            "text": "Size/",
+            "block_num": 21,
+            "left_top": [
+                240,
+                1124
+            ],
+            "right_bot": [
+                300,
+                1150
+            ]
+        },
+        {
+            "text": "Cargo Nature",
+            "block_num": 0,
+            "left_top": [
+                329,
+                1121
+            ],
+            "right_bot": [
+                412,
+                1184
+            ]
+        },
+        {
+            "text": "Carrier Cargo Booking # | Weight",
+            "block_num": 25,
+            "left_top": [
+                572,
+                1121
+            ],
+            "right_bot": [
+                797,
+                1190
+            ]
+        },
+        {
+            "text": "Gross",
+            "block_num": 26,
+            "left_top": [
+                846,
+                1126
+            ],
+            "right_bot": [
+                918,
+                1150
+            ]
+        },
+        {
+            "text": "Last Free",
+            "block_num": 29,
+            "left_top": [
+                1266,
+                1124
+            ],
+            "right_bot": [
+                1376,
+                1150
+            ]
+        },
+        {
+            "text": "Equip.#",
+            "block_num": 20,
+            "left_top": [
+                118,
+                1142
+            ],
+            "right_bot": [
+                208,
+                1172
+            ]
+        },
+        {
+            "text": "Seal #",
+            "block_num": 23,
+            "left_top": [
+                440,
+                1142
+            ],
+            "right_bot": [
+                516,
+                1168
+            ]
+        },
+        {
+            "text": "Pickup#",
+            "block_num": 28,
+            "left_top": [
+                1132,
+                1142
+            ],
+            "right_bot": [
+                1228,
+                1172
+            ]
+        },
+        {
+            "text": "TrainID",
+            "block_num": 30,
+            "left_top": [
+                1451,
+                1139
+            ],
+            "right_bot": [
+                1538,
+                1169
+            ]
+        },
+        {
+            "text": "Type",
+            "block_num": 21,
+            "left_top": [
+                240,
+                1158
+            ],
+            "right_bot": [
+                300,
+                1186
+            ]
+        },
+        {
+            "text": "Weight ",
+            "block_num": 26,
+            "left_top": [
+                846,
+                1156
+            ],
+            "right_bot": [
+                932,
+                1188
+            ]
+        },
+        {
+            "text": "Day",
+            "block_num": 29,
+            "left_top": [
+                1266,
+                1156
+            ],
+            "right_bot": [
+                1317,
+                1187
+            ]
+        },
+        {
+            "text": "",
+            "block_num": 34,
+            "left_top": [
+                438,
+                1192
+            ],
+            "right_bot": [
+                480,
+                1220
+            ]
+        },
+        {
+            "text": "USD 2450.0",
+            "block_num": 38,
+            "left_top": [
+                992,
+                1208
+            ],
+            "right_bot": [
+                1074,
+                1268
+            ]
+        },
+        {
+            "text": "OOCU4 94545-4",
+            "block_num": 31,
+            "left_top": [
+                110,
+                1226
+            ],
+            "right_bot": [
+                206,
+                1286
+            ]
+        },
+        {
+            "text": "General  23768075 | 63462552  TM - 00 | 9807KG",
+            "block_num": 36,
+            "left_top": [
+                326,
+                1225
+            ],
+            "right_bot": [
+                802,
+                1286
+            ]
+        },
+        {
+            "text": "40GP",
+            "block_num": 0,
+            "left_top": [
+                234,
+                1242
+            ],
+            "right_bot": [
+                304,
+                1270
+            ]
+        },
+        {
+            "text": "13367KG",
+            "block_num": 37,
+            "left_top": [
+                848,
+                1242
+            ],
+            "right_bot": [
+                958,
+                1270
+            ]
+        },
+        {
+            "text": "N/A",
+            "block_num": 41,
+            "left_top": [
+                1452,
+                1242
+            ],
+            "right_bot": [
+                1496,
+                1268
+            ]
+        },
+        {
+            "text": "23768075",
+            "block_num": 0,
+            "left_top": [
+                438,
+                1292
+            ],
+            "right_bot": [
+                554,
+                1320
+            ]
+        },
+        {
+            "text": "Total Qty:",
+            "block_num": 0,
+            "left_top": [
+                113,
+                1327
+            ],
+            "right_bot": [
+                244,
+                1365
+            ]
+        },
+        {
+            "text": "USD 2450.00",
+            "block_num": 0,
+            "left_top": [
+                1418,
+                1328
+            ],
+            "right_bot": [
+                1589,
+                1360
+            ]
+        },
+        {
+            "text": "Transportation Reference (6346255200)  AAC-CCL-091 E Ext. Vessel COSCO KAOHSIUNG/091E Ningbo, Ningbo, Zhejiang, China Voyage Ningbo Discharge Port Long Beach hair dryer (POD): To City(FND): Glendale, Maricopa, Arizona, United  14 Nov 2022, 17:30 States",
+            "block_num": 46,
+            "left_top": [
+                363,
+                1408
+            ],
+            "right_bot": [
+                1567,
+                1671
+            ]
+        },
+        {
+            "text": "SVVD:",
+            "block_num": 45,
+            "left_top": [
+                118,
+                1452
+            ],
+            "right_bot": [
+                208,
+                1482
+            ]
+        },
+        {
+            "text": "From City (POR): Load Port (POL): Cargo Description Available at Discharge Port",
+            "block_num": 45,
+            "left_top": [
+                115,
+                1490
+            ],
+            "right_bot": [
+                338,
+                1712
+            ]
+        },
+        {
+            "text": "ETA:",
+            "block_num": 46,
+            "left_top": [
+                864,
+                1676
+            ],
+            "right_bot": [
+                932,
+                1706
+            ]
+        },
+        {
+            "text": "10 Nov 2022, 14:30",
+            "block_num": 46,
+            "left_top": [
+                1114,
+                1676
+            ],
+            "right_bot": [
+                1362,
+                1706
+            ]
+        },
+        {
+            "text": "Customer:",
+            "block_num": 46,
+            "left_top": [
+                864,
+                1714
+            ],
+            "right_bot": [
+                1000,
+                1744
+            ]
+        },
+        {
+            "text": "Conair LLC",
+            "block_num": 46,
+            "left_top": [
+                1114,
+                1712
+            ],
+            "right_bot": [
+                1260,
+                1744
+            ]
+        },
+        {
+            "text": "Cargo Reference (6346255200)  Commodity  COMPACT GRIDDLER ",
+            "block_num": 0,
+            "left_top": [
+                562,
+                1749
+            ],
+            "right_bot": [
+                1073,
+                1856
+            ]
+        },
+        {
+            "text": "Cntr. #",
+            "block_num": 0,
+            "left_top": [
+                114,
+                1792
+            ],
+            "right_bot": [
+                194,
+                1818
+            ]
+        },
+        {
+            "text": "Packaging 2100 OS",
+            "block_num": 0,
+            "left_top": [
+                362,
+                1792
+            ],
+            "right_bot": [
+                486,
+                1856
+            ]
+        },
+        {
+            "text": "00CU494545-4",
+            "block_num": 0,
+            "left_top": [
+                114,
+                1826
+            ],
+            "right_bot": [
+                300,
+                1854
+            ]
+        },
+        {
+            "text": "Additional Information ",
+            "block_num": 0,
+            "left_top": [
+                701,
+                1889
+            ],
+            "right_bot": [
+                1003,
+                1925
+            ]
+        },
+        {
+            "text": "Remark",
+            "block_num": 0,
+            "left_top": [
+                114,
+                1932
+            ],
+            "right_bot": [
+                220,
+                1962
+            ]
+        },
+        {
+            "text": "\u00a2 This job order serves as your dispatch and Invoice approval for the amount issued on this job order. Assessorial costs must be added to the job order. Invoices should only be sent once pick-up and delivery have been completed per the job",
+            "block_num": 0,
+            "left_top": [
+                99,
+                2019
+            ],
+            "right_bot": [
+                1591,
+                2093
+            ]
+        },
+        {
+            "text": "Cost",
+            "block_num": 27,
+            "left_top": [
+                995,
+                1137
+            ],
+            "right_bot": [
+                1047,
+                1171
+            ]
+        }
+    ]
+}
