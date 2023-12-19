@@ -351,7 +351,7 @@ def main(path = ""):
                             label_text +=  b.text.replace(":","") + " : " + str(dates[0].date) + "\n"
 
             
-            reszie_rate = 800/show_image.shape[0]
+            reszie_rate = 900/show_image.shape[0]
             show_image = cv2.resize(show_image, dsize=(int(show_image.shape[1]*reszie_rate), int(show_image.shape[0]*reszie_rate)))
 
             qiamge = QImage(show_image,show_image.shape[1], show_image.shape[0], show_image.strides[0], QImage.Format.Format_BGR888)
@@ -388,6 +388,9 @@ def main(path = ""):
             # save data
             with open("label.json", 'w') as outfile:
                 json.dump(json_data, outfile, indent=4)
+
+            break
+
 
 if __name__ == '__main__':
    
